@@ -53,7 +53,7 @@ DEVICE_PACKAGE_OVERLAYS := vendor/motorola/__DEVICE__/overlay
 \$(call inherit-product, vendor/motorola/__DEVICE__/__DEVICE__-vendor-blobs.mk)
 EOF
 
-(cat << EOF) | sed s/__DEVICE__/$DEVICE/g > ../../../vendor/motorola/sholes/BoardConfigVendor.mk
+(cat << EOF) | sed s/__DEVICE__/$DEVICE/g > ../../../vendor/motorola/shadow/BoardConfigVendor.mk
 # Copyright (C) 2010 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
