@@ -76,7 +76,7 @@ USE_CAMERA_STUB := false
 EOF
 
 mkdir -p ../../../vendor/motorola/shadow/overlay/packages/apps/Launcher2/res/layout
-(cat << EOF) | sed s/__DEVICE__/$DEVICE/g > ../../../vendor/motorola/sholes/overlay/packages/apps/Launcher2/res/layout/all_apps.xml
+(cat << EOF) | sed s/__DEVICE__/$DEVICE/g > ../../../vendor/motorola/shadow/overlay/packages/apps/Launcher2/res/layout/all_apps.xml
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2010 The Android Open Source Project
 
