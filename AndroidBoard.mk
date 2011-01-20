@@ -131,9 +131,9 @@ $(file) : $(LOCAL_PATH)/mount_ext3.sh | $(ACP)
 	$(transform-prebuilt-to-target)
 
 # add boot updater
-file := $(TARGET_OUT)/etc/obsidian-boot.zip
+file := $(TARGET_OUT)/etc/shadow-boot.zip
 ALL_PREBUILT += $(file)
-$(file) : $(LOCAL_PATH)/obsidian-boot.zip | $(ACP)
+$(file) : $(LOCAL_PATH)/shadow-boot.zip | $(ACP)
 	$(transform-prebuilt-to-target)
 
 # add droidxbootstrap configuration file
